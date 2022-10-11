@@ -1,0 +1,86 @@
+.searchImg {
+    height: 10px;
+    width: auto;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: darkgrey;
+    color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("background.jpg");
+    background-position: inherit;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.searchCointener {
+    background-color: rgb(60, 60, 60, 0.5);
+    padding: 2em;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 420px;
+    min-height: 130px;
+    margin: 0em;
+
+}
+
+.city {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.3em;
+    border: 20px;
+    font-family: inherit;
+    font-size: 110%;
+    border-radius: 5px;
+    color: whitesmoke;
+    height: fit-content;
+    text-align: center;
+    width: 100%;
+    background: rgb(60, 60, 60);
+}
+
+button {
+    margin-left: 0.5em;
+    border-radius: 60%;
+    border: none;
+    height: 2.5em;
+    width: 2.5em;
+    outline: none;
+    background: lightgrey;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+p {
+    margin-top: 0;
+    font-size: larger;
+    text-align: center;
+}
+
+#temp {
+    float: right;
+    font-size: 3em;
+    margin-right: 3em;
+    font-weight: bold;
+}
+
+.parametersLeft {
+    margin-left: 3em;
+}
+
+
+
+

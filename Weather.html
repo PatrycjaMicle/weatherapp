@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weather.css">
+    <script src="weather.js"></script>
+</head>
+<body>
+<div class="searchCointener">
+    <p>Check the weather now:</p>
+    <div class="city">
+        <input type="text" class="search-bar" id="cityName" placeholder="Type your city...">
+        <button><img class="searchImg" src="search-interface-symbol.png" alt="Search" onclick="searchCity()"></button>
+    </div>
+    <div class="cityCointener">
+        <h2 id="cityIntro"></h2>
+        <div id="temp"></div>
+        <img src="" id="icon" class="parametersLeft">
+        <div id="description" class="parametersLeft"></div>
+        <div id="humidty" class="parametersLeft"></div>
+        <div id="wind" class="parametersLeft"></div>
+    </div>
+</div>
+</body>
+</html>
