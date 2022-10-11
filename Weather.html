@@ -8,14 +8,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
     <link rel="stylesheet" href="weather.css">
-    <script src="weather.js"></script>
+
 </head>
 <body>
 <div class="searchCointener">
     <p>Check the weather now:</p>
     <div class="city">
         <input type="text" class="search-bar" id="cityName" placeholder="Type your city...">
-        <button><img class="searchImg" src="search-interface-symbol.png" alt="Search" onclick="searchCity()"></button>
+        <button id="searchBut"><img class="searchImg" src="search-interface-symbol.png" alt="Search"></button>
     </div>
     <div class="cityCointener">
         <h2 id="cityIntro"></h2>
@@ -26,5 +26,6 @@
         <div id="wind" class="parametersLeft"></div>
     </div>
 </div>
+<script src="weather.js"></script>
 </body>
 </html>

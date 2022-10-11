@@ -1,3 +1,5 @@
+document.getElementById("searchBut").setAttribute("onclick","searchCity()");
+
 function searchCity() {
     var cityValue = document.querySelector("input").value;
     var city = cityValue[0].toUpperCase() + cityValue.slice(1)
@@ -25,6 +27,5 @@ function searchCity() {
     document.getElementById("humidty").innerHTML = humidity;
     document.getElementById("wind").innerHTML = wind;
     document.getElementById("icon").src = icon;
-
 
 }
