@@ -2,4 +2,4 @@
 
 Type your location to check the weather.
 
-[open weather app]
+[open weather app](https://patrycjamicle.github.io/weatherapp/)
