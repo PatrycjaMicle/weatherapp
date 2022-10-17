@@ -1,4 +1,4 @@
-document.getElementById("searchBut").setAttribute("onclick","searchCity()");
+document.getElementById("searchBut").setAttribute("onclick", "searchCity()");
 
 function searchCity() {
     var cityValue = document.querySelector("input").value;
@@ -17,8 +17,8 @@ function searchCity() {
     var current = daten.currentConditions;
     var comment = current.comment;
     var temp = current.temp.c + "°C";
-    var humidity = "Humidity:" + current.humidity;
-    var wind = "Wind speed:" + current.wind.km + "km/h";
+    var humidity = "Humidity: " + current.humidity;
+    var wind = "Wind speed: " + current.wind.km + "km/h";
     var icon = current.iconURL;
 
     document.getElementById("cityIntro").innerHTML = "Weather in " + city;
