@@ -2,7 +2,7 @@ document.getElementById("searchBut").setAttribute("onclick", "searchCity()");
 
 function searchCity() {
     var cityValue = document.querySelector("input").value;
-    var city = cityValue[0].toUpperCase() + cityValue.slice(1)
+    var city = cityValue[0].toUpperCase() + cityValue.slice(1);
     var url = "https://weatherdbi.herokuapp.com/data/weather/" + city;
 
     function httpGet(theUrl) {

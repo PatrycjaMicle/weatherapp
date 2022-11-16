@@ -12,10 +12,10 @@ body {
     background: darkgrey;
     color: whitesmoke;
     font-family: 'Open Sans', sans-serif;
-    background-image: url("background.jpg");
-    background-position: inherit;
-    background-size: 100%;
+    background-position: center;
+    padding: 1em;
     background-repeat: no-repeat;
+
 }
 
 .searchCointener {
