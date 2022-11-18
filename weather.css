@@ -70,11 +70,19 @@ p {
     font-size: larger;
     text-align: center;
 }
-
+@media(max-width:400px){
+    #temp{
+        margin-right: 1em;
+    }
+}
+@media(min-width: 401px){
+    #temp{
+        margin-right: 3em;
+    }
+}
 #temp {
     float: right;
     font-size: 3em;
-    margin-right: 3em;
     font-weight: bold;
 }
 
