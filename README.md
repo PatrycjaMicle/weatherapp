@@ -4,7 +4,7 @@ App showing actual weather in a choosed location.
 
 ## Instructions
 
-Write into input a name of a city, you want to check the weather in.
+Write into input name of a city, you want to check the weather in.
 
 ## Overview
 <p align="center">
@@ -13,7 +13,8 @@ Write into input a name of a city, you want to check the weather in.
 
 ## Used technologies
 
-Javascript, using API.
+Javascript using API, HTML,  CSS
+
 
 ## Link
 
